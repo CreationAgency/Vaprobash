@@ -2,9 +2,9 @@
 # vi: set ft=ruby :
 
 # Config Github Settings
-github_username = "fideloper"
+github_username = "CreationAgency"
 github_repo     = "Vaprobash"
-github_branch   = "1.4.2"
+github_branch   = "master"
 github_url      = "https://raw.githubusercontent.com/#{github_username}/#{github_repo}/#{github_branch}"
 
 # Because this:https://developer.github.com/changes/2014-12-08-removing-authorizations-token/
@@ -61,7 +61,9 @@ composer_packages     = [        # List any global Composer packages that you wa
   #"phpunit/phpunit:4.0.*",
   #"codeception/codeception=*",
   #"phpspec/phpspec:2.0.*@dev",
-  #"squizlabs/php_codesniffer:1.5.*",
+  #"squizlabs/php_codesniffer:1.5.*",,
+  #"drush/drush:dev-master",
+  #"consolidation/robo:dev-master"  # Needed for drush to install
 ]
 
 # Default web server document root
